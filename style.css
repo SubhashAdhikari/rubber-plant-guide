@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy-light";
+      }
+
+    html,body {
+
+        width : 100%;
+        height: 100%;
+         
+    }
+
+#main {
+    display: flex;
+    width:100%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+#left{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(19, 11, 11);
+    
+
+}
+
+#leftleftarrow{
+    
+    font-size: 33px;
+    position: absolute;
+    bottom:0%;
+    left:72.5%;
+    
+    width :40px;
+    height: 40px;
+    color:black;
+    background-color:white;
+    align-items:end;
+    display: flex;
+    
+
+
+
+}
+
+#left #top {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWluaW1hbCUyMHBsYW50c3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    
+    
+   
+
+}
+
+#left #bottom {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(33, 31, 31);
+    color: white;
+    padding: 25px 90px;
+    
+
+}
+
+#content{
+    height: 30px;
+   padding: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+ #leftcontent p { 
+    width: 70%;
+    height: 500%;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    margin-top: 50px;
+    
+ }
+
+ #rightcontent h2{  
+    font-size: 28px ;
+    width: 100%;
+    height: 200%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    background-color: transparent;
+    margin-bottom : 15px;
+     }
+
+.row  {
+    
+    display: flex;
+    padding-right: 200px;
+    
+
+
+}
+
+.relem {
+    display: flex;
+   
+
+}
+
+.relemtext {
+   margin-left: 10px;
+   height: 20px;
+   
+
+
+}
+
+.relemtext h6{
+    opacity: 40%;
+    
+
+
+
+
+}
+
+.row2 { 
+    margin-top: 32px;
+    display: flex;
+    padding-right: 200px;
+
+
+
+}
+
+
+#right{
+    width: 25%;
+    height: 100%;
+
+
+
+}
+
+#right #top2 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 130px;
+    position: relative;
+    background-image: url(https://media.istockphoto.com/id/1300028401/photo/few-twigs-with-small-white-flowers-of-gypsophila-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=y_uPeaK0WBsXNsC8N8-eRgACr0GCRlS9tRbewaGDVf8=);
+    background-image-size: cover;
+    background-position:  left 30%;
+    opacity: 1.0;
+
+
+}
+
+#top2 #selected {
+    
+    margin-left: 30px;
+    position: relative;
+
+
+}
+
+#top2 #selected::before {
+    content : " ";
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    width:15px;
+    height: 2px;
+    background-color:black;
+    left :-30px;
+    
+
+
+}
+
+#top2 a {
+    text-decoration: none;
+    color:grey;
+    font-size: 17px;
+    font-weight:bold;
+    letter-spacing: 3px;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+    
+    
+    
+    
+}
+ #icons {
+
+    top:0;
+    right:0;
+    position: absolute;
+    display:flex;
+    padding : 30px;
+    flex-direction: column;
+
+ }
+
+ #icons i {
+
+    font-size: 20px;
+
+ }
+
+ #btmflower{
+    width: 200px;
+    height: 120px;
+    background-image:url(https://plus.unsplash.com/premium_photo-1676654935958-1c9faa9b6298?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    position: absolute;
+    background-position: bottom;
+    left:0;
+    bottom:0;
+
+
+
+
+ }
+
+ #btmflower i{
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width :40px;
+    height: 40px;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.205);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+ }
+
+
+#right #bottom2 {
+    width: 100%;
+    height: 30%;
+    background-image: url(https://media.istockphoto.com/id/1158304986/photo/floral-background-eucalyptus-aroma-therapy.webp?a=1&b=1&s=612x612&w=0&k=20&c=XjgqGXrbMutGfeLIgSMD_BH33y8upVuH81IQ2ckVafM=);
+    background-size: cover;
+}
+
