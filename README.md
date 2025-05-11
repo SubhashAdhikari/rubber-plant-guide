@@ -6,6 +6,13 @@ This project was built as a personal practice exercise in HTML and CSS, with a f
 
 ## 🔍 Preview
 
+![Screenshot 2025-05-11 225333](https://github.com/user-attachments/assets/3a573279-e1bb-4235-bc51-ad3b0c9bd207)
+
+![Screenshot 2025-05-11 225356](https://github.com/user-attachments/assets/adc62175-2136-46fd-b767-6aa6aa33195e)
+
+
+
+
 > "Rubber plants (known scientifically as *Ficus elastica* or *Ficus robusta*) get their name from the milky white latex in their veins."
 
 The page is broken down into the following sections:
